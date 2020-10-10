@@ -3,4 +3,5 @@ $("#Generate").click(()=>{
   var text=$("#input-text").val();
   var url=api+text;
   $("#display-qr").attr("src", url);
+  $("#dow_qr").attr("src", url);
 });
